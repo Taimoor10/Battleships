@@ -1,0 +1,12 @@
+{
+  "name": "battleships",
+  "version": "1.0.0",
+  "description": "A simple Battleship game against a computer opponent",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd battleships && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
