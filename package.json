@@ -4,6 +4,7 @@
   "description": "A simple Battleship game against a computer opponent",
   "main": "index.js",
   "scripts": {
+    "install": "cd battleships && npm install",
     "start": "cd battleships && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
