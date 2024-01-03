@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../Styles/Battleships.css';
-import { availableSlots, orientation, ships } from '../Utils/setup';
+import { initialGrid, orientation, ships } from '../Utils/setup';
 import { GridCell } from './GridCell';
 import { isShipPlaceable, getRandomIndexAndDirection } from '../Utils/Repository/battleship';
 import { Legend } from './Legend';
@@ -9,7 +9,7 @@ import { Button } from './Button';
 
 export const Battleships = () => {
 
-    const [board, setBoard] = useState(availableSlots);
+    const [board, setBoard] = useState(initialGrid);
     const [shipsLocation, setShipsLocation ] = useState({});
     const [sinkLocations, setSinkLocation] = useState({});
 

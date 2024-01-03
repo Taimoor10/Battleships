@@ -1,4 +1,4 @@
-export const availableSlots = [
+export const initialGrid = [
     [0, 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0],
     [0, 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0],
     [0, 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0],
