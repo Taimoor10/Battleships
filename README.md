@@ -7,7 +7,7 @@ A simple Battleship game against a computer opponent
 Run `npm install` to install dependencies
 
 
-Clone the project. In the project directory battleships, you can run he following command to run the application:
+Clone the project. run he following command to run the application:
 
 ### `npm start`
 
