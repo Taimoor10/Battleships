@@ -21,7 +21,7 @@ Clone the project. run the following command to run the application:
 
 4) 0 in the array means that the index is available and not been hit yet and ships can be placed here.
    
-5) The isShipPlaceable function in [battleship.js](src/Utils/Repository/battleship.js) checks for grid bounds and      
+5) The isShipPlaceable function in `src/Utils/Repository/battleship.js` checks for grid bounds and      
    overlapping logic. If the grid value is not 0 then this means that index is occupied. So then call the random function
    again to find new free indexes. Keep repeating the process until a placeable index is found. Therefore the ships placement in `Battleship.jsx` uses recursion.
 
