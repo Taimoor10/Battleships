@@ -1,0 +1,22 @@
+.button {
+    background-color: grey;
+    color: white;
+    padding: 5%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    min-width: 100%;
+    font-size: large;
+    margin-left: -300%;
+}
+  
+.button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 720px) {
+    .button{
+        margin-left: -200%;
+    }
+}
